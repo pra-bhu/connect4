@@ -1,6 +1,6 @@
 export default function Reset({handleReset}:{handleReset:Function}) {
   return (
-      <div className="flex justify-center m-3">
+      <div className="flex justify-center md:m-3">
           <button 
             className="text-slate-800 border border-slate-800 hover:bg-slate-800 hover:text-white active:bg-slate-600 font-bold uppercase text-xs md:px-4 md:py-2 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 md:w-16 md:h-16 md:mt-6 w-10 h-10 mt-4"
             onClick = {()=> handleReset()}>

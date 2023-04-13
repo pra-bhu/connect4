@@ -79,5 +79,5 @@ const gameResultStyleClass = (gameResult: string | null) =>
 
 const boardStyleClass = clsx(
   `neumorph ring-2 ring-slate-900 rounded-md 
-    p-10 m-4 shadow-md flex flex-col gap-1 md:gap-3`
+  p-5 md:p-10 m-2 md:m-4 shadow-md flex flex-col gap-1 md:gap-3`
 )

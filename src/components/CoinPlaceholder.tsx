@@ -26,7 +26,7 @@ const styleClass= (props: InitProps) => clsx(
     `group-hover:scale-110 
     group-hover:drop-shadow-2xl 
     rounded-full  
-    h-6 w-6 md:h-16 md:w-16 drop-shadow-xl
+    h-8 w-8 md:h-16 md:w-16 drop-shadow-xl
     border-t-2 border-r-2`,
     `shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]`,
     props.isTargetCoin && 'animate-heartBeat',
