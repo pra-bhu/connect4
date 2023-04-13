@@ -35,7 +35,7 @@ export default function GameBoard() {
   }
 
   useEffect(() => {
-    if (winList.length === ALLOWED_WIN_STREAK_OF_COINS) {
+    if (winList.length >= ALLOWED_WIN_STREAK_OF_COINS) {
       setGameResult(GAME_RESULT.WIN)
       setNextColorCode(toggleColorCode)
     } else if (gridState.every((row) => row.lastIndexOf(0) < 0)) {

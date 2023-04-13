@@ -67,7 +67,7 @@ export class GameEngine implements IGameEngine {
         matchedCoins.push(`${this.startRow}:${col}`)
       } else break
     }
-    return matchedCoins.length === ALLOWED_WIN_STREAK_OF_COINS
+    return matchedCoins.length >= ALLOWED_WIN_STREAK_OF_COINS
       ? matchedCoins
       : []
   }
@@ -84,7 +84,7 @@ export class GameEngine implements IGameEngine {
         matchedCoins.unshift(`${row}:${this.startCol}`)
       } else break
     }
-    return matchedCoins.length === ALLOWED_WIN_STREAK_OF_COINS
+    return matchedCoins.length >= ALLOWED_WIN_STREAK_OF_COINS
       ? matchedCoins
       : []
   }
@@ -119,7 +119,7 @@ export class GameEngine implements IGameEngine {
         } else break
       } else break
     }
-    return matchedCoins.length === ALLOWED_WIN_STREAK_OF_COINS
+    return matchedCoins.length >= ALLOWED_WIN_STREAK_OF_COINS
       ? matchedCoins
       : []
   }
@@ -158,7 +158,7 @@ export class GameEngine implements IGameEngine {
         } else break
       } else break
     }
-    return matchedCoins.length === ALLOWED_WIN_STREAK_OF_COINS
+    return matchedCoins.length >= ALLOWED_WIN_STREAK_OF_COINS
       ? matchedCoins
       : []
   }
