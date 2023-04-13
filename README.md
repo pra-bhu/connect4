@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+### Connect4our
+Open (https://pra-bhu.github.io/connect4/) to play
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
