@@ -67,7 +67,7 @@ export default function GameBoard() {
 
 const flipCoinStyleClass = (nextColorCode: number) =>
   clsx(
-    `rounded-full h-10 w-10 md:h-24 md:w-24 
+    `rounded-full h-12 w-12 md:h-24 md:w-24 
   drop-shadow-xl border-t-2 border-l-2`,
     coinStyle[Coins[nextColorCode] as CoinsTypes],
     `shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]`,

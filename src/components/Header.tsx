@@ -2,7 +2,7 @@ import { APP_NAME } from "../constants"
 
 export default function Header() {
         return (
-            <div className ="flex justify-around md:text-6xl text-3xl">
+            <div className ="flex justify-around md:text-6xl text-4xl">
                 <h1 className="pt-3 m-0 self-center font-mono">{APP_NAME}</h1>
                 
                 <a className="self-end" href = "https://en.wikipedia.org/wiki/Connect_Four#Gameplay" target = "_blank" rel="noopener noreferrer">
